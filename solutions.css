@@ -44,3 +44,85 @@
    opacity: 0;
 }
 
+
+
+/* 5th square */
+
+.ex-4-square {
+   transition: 1s;
+}
+
+.ex-4-square:hover {
+   transform: scale(1.5);
+}
+
+.ex-5-square:active {
+   transform: scale(.5);
+}
+
+
+
+/* esercizio 6 */
+
+img.ex-6-img:hover {
+   filter: grayscale(1);
+}
+
+
+
+/* esercizio 7 */
+
+img.ex-7-img {
+   transition: 1s;
+}
+
+img.ex-7-img:hover {
+   filter: grayscale(1) sepia(0.24);
+}
+
+
+
+/* esercizio 8 */
+
+img.ex-8-img {
+   transition: 1s;
+}
+
+img.ex-8-img:hover {
+   filter: saturate(0.3) sepia(0.2);
+   border-radius: 20px;
+}
+
+
+
+/* esercizio 9 */
+
+img.ex-9-img {
+   transition: 1s;
+}
+
+img.ex-9-img:hover {
+   filter: saturate(0.3) sepia(0.2);
+   border-radius: 20px;
+   transform: scale(1.5);
+}
+
+
+
+/* esercizio 10 */
+
+i.ex-10-icon.fas.fa-circle-notch {
+   animation-duration: 1s;
+   animation-name: rotate;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+   
+   0% {
+      transform: rotate(360deg);
+   }
+   
+}
+
